@@ -6,6 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="10dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -14,6 +16,7 @@
         android:layout_weight="1"
         android:orientation="vertical"
         android:background="#ff0"
+        android:layout_marginVertical="4dp"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,18 +27,20 @@
                 android:layout_width="0dp"
                 android:layout_weight="3"
                 android:layout_height="wrap_content"
-                android:text="威力採"
-                android:textSize="36sp"
+                android:text="威力彩"
+                android:textSize="48sp"
                 />
             <Button
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                
-                android:text="Go"
+                android:layout_gravity="center_vertical
+"                android:text="Go"
+                android:onClick="lotto1"
                 />
         </LinearLayout>
         <TextView
+            android:id="@+id/lotto1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="1,2,3,4,5,6"
@@ -47,7 +52,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:background="#0f0"
+        android:background="#ff0"
+        android:layout_marginVertical="10dp"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,20 +61,27 @@
             android:orientation="horizontal"
             >
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="3"
                 android:layout_height="wrap_content"
-                android:text="威力採"
+                android:text="大樂透"
+                android:textSize="48sp"
                 />
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Go"
+                android:layout_gravity="center_vertical
+"                android:text="Go"
+                android:onClick="lotto2"
                 />
         </LinearLayout>
         <TextView
+            android:id="@+id/lotto2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="1,2,3,4,5,6"
+            android:textSize="36sp"
             />
     </LinearLayout>
     <LinearLayout
@@ -76,7 +89,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:background="#770"
+        android:background="#ff0"
+        android:layout_marginVertical="10dp"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -84,20 +98,27 @@
             android:orientation="horizontal"
             >
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="3"
                 android:layout_height="wrap_content"
-                android:text="威力採"
+                android:text="今採539"
+                android:textSize="48sp"
                 />
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Go"
+                android:layout_gravity="center_vertical
+"                android:text="Go"
+                android:onClick="lotto3"
                 />
         </LinearLayout>
         <TextView
+            android:id="@+id/lotto3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="1,2,3,4,5,6"
+            android:textSize="36sp"
             />
     </LinearLayout>
 

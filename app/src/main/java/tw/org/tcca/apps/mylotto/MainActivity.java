@@ -17,4 +17,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void lotto1(View view) {
+    }
+    public void lotto2(View view) {
+    }
+    public void lotto3(View view) {
+    }
 }
