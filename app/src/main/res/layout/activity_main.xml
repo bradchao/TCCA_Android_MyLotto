@@ -21,8 +21,10 @@
         android:layout_height="wrap_content"
         android:text="1,2,3,4,5,6"
         android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
         android:textStyle="bold|italic"
+        android:background="#ff0"
         android:textColor="#f00"
         />
 
